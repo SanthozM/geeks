@@ -1,4 +1,5 @@
 site_name: "Geeks"
+site_url: https://geek.santhoz.in
 nav:
   - 'Profile':
       - Home : Profile.md
