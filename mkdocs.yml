@@ -1,0 +1,95 @@
+site_name: "Geeks"
+nav:
+  - 'Profile':
+      - Home : Profile.md
+  - 'TechGuide':
+      - Home : index.md  # Intro page for TechGuide
+      - 'Dnsmasq':
+          - 'DHCP Configuration': TechGuide/dnsmasq/dhcp-config.md
+          - 'DNS Filtering': TechGuide/dnsmasq/dns-filtering.md
+          - 'Split DNS': TechGuide/dnsmasq/split-dns.md
+      - 'Netplan':
+          - 'Basics': TechGuide/netplan/basics.md
+          - 'Ethernet': TechGuide/netplan/ethernet.md
+          - 'VLAN': TechGuide/netplan/vlan.md
+          - 'Bridge': TechGuide/netplan/bridge.md
+          - 'Routing': TechGuide/netplan/route.md
+          # - 'Bonding': TechGuide/netplan/bond.md
+  - Blogs:
+      - Home : blogs.md
+      - 'Deploy MKDOCS in the Linux Machine using NGINIX': Blog/post1.md
+      - 'Troubleshooting VPN Connectivity: Dealing with IPv6 Issues on Linux': Blog/post2.md
+      - 'Troubleshooting VPN Connectivity: Dealing with IPv6 Issues on Windows': Blog/post3.md
+      - 'dnsmasq: port 53: Address already in use': Blog/post4.md
+      - 'Network Control: Block Domains and Show a Custom Message with dnsmasq': Blog/post5.md
+      - 'Block DNS over HTTPS(DoH) using DNSMASQ': Blog/post6.md
+
+# Theme settings
+theme:
+  name: 'material'
+  # name: dracula
+  logo: assets/self_animated_icon.png
+  favicon: assets/self_animated_icon.png
+  features:
+    - navigation.tabs           # Enable tabbed navigation
+    - navigation.indexes        # Enhances navigation for larger docs
+    - content.code.annotate     # Annotate code with line numbers
+    - navigation.instant        # Instant navigation between pages
+    - navigation.sections       # Better control of section navigation
+    - content.code.copy         # Copy button on code blocks
+    - navigation.expand
+ 
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/theme-light-dark
+        name: Switch Theme
+    - scheme: slate
+      toggle:
+        icon: material/theme-light-dark
+        name: Switch Theme
+ 
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+ 
+# Enable search functionality
+plugins:
+  - glightbox
+  - search:
+      lang: ['en']
+      separator: '[\s\-]+'
+  - awesome-pages               # Enables better page ordering in nav
+  - minify                      # Minifies HTML/CSS for faster page loads
+ 
+# Markdown extensions for advanced features
+markdown_extensions:
+  - attr_list
+  - admonition                   # Collapsible sections for tips, notes, etc.
+  - codehilite:
+      guess_lang: false          # Syntax highlighting for code blocks
+  - footnotes                    # Add footnotes to your documentation
+  - pymdownx.critic
+  - pymdownx.keys
+  - pymdownx.superfences         # Support for advanced code block features
+  - pymdownx.highlight           # Better syntax highlighting for code
+  - pymdownx.details             # Collapsible sections in markdown
+  - pymdownx.tilde               # Strikethrough text with ~~
+  - pymdownx.tasklist            # Task list with checkboxes
+  - pymdownx.caret               # Superscript and subscript formatting
+  - pymdownx.emoji               # Emoji support for markdown
+  - pymdownx.inlinehilite        # Inline code highlighting
+  - pymdownx.mark                # Highlight text using ==highlight==
+  - admonition
+  - attr_list
+  - md_in_html
+ 
+# Optional: Add meta tags, like description or SEO options
+extra:
+  generator: false                # Hide generator information
+  copyright: '© 2024 santhoz.in'
+
+ 
+extra_css:
+  - stylesheets/extra.css         # Add any custom styles if needed
+
