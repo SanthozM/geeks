@@ -3,19 +3,19 @@
 
 - 🔭 I’m currently working on [ChiefNET](https://chiefnet.io)
 
-- 👨‍💻 All of my projects are available at [geeks.santhoz.in/Projects](https://geeks.santhoz.in/Projects)
+- 👨‍💻 All of my projects are available at [Projects](https://geeks.santhoz.in/Projects)
 
-- 📝 I regularly write articles on [geeks.santhoz.in](https://geeks.santhoz.in)
+- 📝 I regularly write articles on [Geeks](https://geeks.santhoz.in)
 
 - 💬 Ask me about **Python, Networking, Linux**
 
 - 📫 How to reach me **santhoshm.murugesan@gmail.com**
 
-- 📄 Know about my experiences [geeks.santhoz.in/resume](https://geeks.santhoz.in/resume)
+- 📄 Know about my experiences [Resume](https://geeks.santhoz.in/resume)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/santhoshmurugesan/" target="_blank"><img align="center" src="/assets/linkedin_logo.png" alt="https://www.linkedin.com/in/santhoshmurugesan/" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/santhoshmurugesan/" target="_blank"><img align="center" src="/docs/assets/linkedin_logo.png" alt="https://www.linkedin.com/in/santhoshmurugesan/" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
