@@ -20,7 +20,7 @@ jobs:
         run: pip install mkdocs
 
       - name: Install python packages
-        run: pip install mkdocs-material  mkdocs-glightbox mkdocs-awesome-pages-plugin
+        run: pip install mkdocs-material  mkdocs-glightbox mkdocs-awesome-pages-plugin mkdocs-minify-plugin
 
       - name: Build and deploy
         run: |
