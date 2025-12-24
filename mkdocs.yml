@@ -2,6 +2,7 @@ site_name: "Geeks"
 site_url: https://geeks.santhoz.in
 use_directory_urls: true
 
+
 nav:
   - 'Profile':
       - Home : Profile.md
@@ -26,6 +27,9 @@ nav:
       - 'dnsmasq: port 53: Address already in use': Blog/post4.md
       - 'Network Control: Block Domains and Show a Custom Message with dnsmasq': Blog/post5.md
       - 'Block DNS over HTTPS(DoH) using DNSMASQ': Blog/post6.md
+      - 'Can Netcat (nc) Replace SSH? Not Quite – But Its Still a Beast': Blog/post8.md
+      - 'Wireguard VPN tunnel': Blog/post7.md
+      - 'AI Model (Gemma 3) in N100 mini PC': Blog/post9.md
 
 # Theme settings
 theme:
@@ -89,6 +93,7 @@ markdown_extensions:
  
 # Optional: Add meta tags, like description or SEO options
 extra:
+  cname: geeks.santhoz.in
   generator: false                # Hide generator information
   copyright: '© 2024 santhoz.in'
 
