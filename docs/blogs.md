@@ -18,5 +18,6 @@ This blog is created to share my insights on various networking utilities across
 - [Block DNS over HTTPS(DoH) using DNSMASQ](Blog/post6.md){:target="_blank"}
 - [Can Netcat (nc) Replace SSH? Not Quite – But It's Still a Beast ](Blog/post8.md){:target="_blank"}
 - [Wireguard VPN tunnel](Blog/post7.md){:target="_blank"}
+- [AI Model (Gemma 3) in N100 mini PC](Blog/post9.md){:target="_blank"}
 
 </div>
