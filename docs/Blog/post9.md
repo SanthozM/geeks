@@ -21,7 +21,7 @@ With this you can set up **two local AI stacks**, Choose the one fits for you:
 - GPU: Not required
 
 ---
-
+# **Ollama + Open WebUI**
 ## 1. Base System Preparation
 
 ```bash
@@ -86,9 +86,9 @@ xdg-open http://localhost:3000
 
 ---
 
-## 6. Low-Memory CPU Setup (AirLLM-style)
+# **Low-memory AirLLM-style CPU setup**
 
-### Create virtual environment
+## 1. Create virtual environment
 
 ```bash
 mkdir -p ~/gemma_air_ui
@@ -105,7 +105,7 @@ pip install -U transformers accelerate safetensors sentencepiece gradio
 
 ---
 
-## 7. Hugging Face Login
+## 2. Hugging Face Login
 
 ```bash
 pip install -U huggingface_hub
@@ -114,7 +114,7 @@ huggingface-cli login
 
 ---
 
-## 8. Create Chatbot UI
+## 3. Create Chatbot UI
 
 Create `app.py` and paste the code the below code.
 
@@ -176,7 +176,7 @@ demo.launch(server_name="0.0.0.0", server_port=7860)
 
 ---
 
-## 9. Run Chatbot
+## 4. Run Chatbot
 
 ```bash
 export MODEL_ID="google/gemma-3-4b-it"
