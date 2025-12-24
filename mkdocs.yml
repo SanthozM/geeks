@@ -31,8 +31,8 @@ nav:
 theme:
   name: 'material'
   # name: dracula
-  logo: assets/self_animated_icon.png
-  favicon: assets/self_animated_icon.png
+  logo: assets/santa_logo.png
+  favicon: assets/santa_logo.png
   features:
     - navigation.tabs           # Enable tabbed navigation
     - navigation.indexes        # Enhances navigation for larger docs
